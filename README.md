@@ -1,2 +1,2 @@
 # XrmMoq
-Another Dynamics CRM/365 mocking framework based on Moq.
+Another Dynamics CRM/365 mocking framework based on Moq. 
