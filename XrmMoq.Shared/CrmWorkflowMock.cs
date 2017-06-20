@@ -1,5 +1,4 @@
-﻿using XrmMoq.Helpers;
-using Microsoft.Xrm.Sdk;
+﻿using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using Microsoft.Xrm.Sdk.Workflow;
 using Moq;
@@ -7,6 +6,7 @@ using System;
 using System.Activities;
 using System.Collections.Generic;
 using System.Linq;
+using XrmMoq.Helpers;
 
 namespace XrmMoq
 {

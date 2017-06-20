@@ -1,9 +1,9 @@
-﻿using XrmMoq;
-using XrmMoq.Helpers;
-using Microsoft.Crm.Sdk.Messages;
+﻿using Microsoft.Crm.Sdk.Messages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.Xrm.Sdk;
 using System;
+using XrmMoq;
+using XrmMoq.Helpers;
 
 namespace TestPlugin2016.Tests
 {

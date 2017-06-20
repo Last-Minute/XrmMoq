@@ -7,7 +7,7 @@
     <ProjectGuid>{C2488BDF-7FD7-4994-B3DF-D37706D16644}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XrmMoq._2016</RootNamespace>
+    <RootNamespace>XrmMoq</RootNamespace>
     <AssemblyName>XrmMoq.2016</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

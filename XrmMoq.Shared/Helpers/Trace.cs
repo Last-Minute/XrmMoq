@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
-using Microsoft.Xrm.Sdk;
+﻿using Microsoft.Xrm.Sdk;
 using Moq;
+using System.Diagnostics;
 
 namespace XrmMoq.Helpers
 {

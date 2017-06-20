@@ -1,7 +1,7 @@
-﻿using System;
-using Microsoft.Xrm.Client.Services;
+﻿using Microsoft.Xrm.Client.Services;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
+using System;
 
 /// <summary>
 /// Adapter used in CRM development requiring a CRM connection using Microsoft.Xrm.Client.CrmConnection.

@@ -1,7 +1,7 @@
-﻿using XrmMoq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
+using XrmMoq;
 
 namespace TestWorkflow2016.Tests
 {

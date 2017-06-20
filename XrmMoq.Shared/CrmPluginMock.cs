@@ -1,10 +1,9 @@
-﻿using XrmMoq.Helpers;
-using Microsoft.Xrm.Sdk;
+﻿using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using Moq;
 using System;
 using System.Linq;
-using System.Reflection;
+using XrmMoq.Helpers;
 
 namespace XrmMoq
 {

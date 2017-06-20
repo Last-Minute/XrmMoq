@@ -1,10 +1,10 @@
-﻿using System;
-using Microsoft.Xrm.Sdk;
+﻿using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
 using Microsoft.Xrm.Sdk.Organization;
 using Microsoft.Xrm.Sdk.Query;
 using Microsoft.Xrm.Sdk.WebServiceClient;
 using Microsoft.Xrm.Tooling.Connector;
+using System;
 using AuthenticationType = Microsoft.Xrm.Tooling.Connector.AuthenticationType;
 
 /// <summary>

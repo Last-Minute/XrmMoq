@@ -1,7 +1,7 @@
-﻿using XrmMoq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.Xrm.Sdk;
 using System;
+using XrmMoq;
 
 namespace TestPlugin2016.Tests
 {
