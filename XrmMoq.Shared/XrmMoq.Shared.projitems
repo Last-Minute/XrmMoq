@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>67654009-1cfe-427c-97d2-b5fca744343f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XrmMoq.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CrmPluginMock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CrmWorkflowMock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\IsolationMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\MessageName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\PluginMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\Stage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\WorkflowMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CreateIsolationMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CreateMessageName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CreatePluginMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CreateStage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CreateWorkflowMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Trace.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\FakePluginExecutionContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\FakeWorkflowContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\PostImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\PreImage.cs" />
+  </ItemGroup>
+</Project>
