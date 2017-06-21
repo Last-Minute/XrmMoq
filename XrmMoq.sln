@@ -77,11 +77,6 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XrmMoq.Adapters.CrmServiceC
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XrmMoq.Adapters.CrmConnection", "XrmMoq.Adapters.CrmConnection\XrmMoq.Adapters.CrmConnection.shproj", "{BFE63D01-57C1-4CC9-B427-35CB7C941E87}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{75D572B8-63A3-4834-A3D0-4EEE4CCC2734}"
-	ProjectSection(SolutionItems) = preProject
-		ExampleUnitTests.testsettings = ExampleUnitTests.testsettings
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		XrmMoq.Shared\XrmMoq.Shared.projitems*{37c23262-218b-4ddf-85ec-1b905f403415}*SharedItemsImports = 4
