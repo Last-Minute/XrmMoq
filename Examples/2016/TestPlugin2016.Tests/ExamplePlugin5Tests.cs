@@ -9,6 +9,7 @@ namespace TestPlugin2016.Tests
     public class ExamplePlugin5Tests
     {
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2016_method_using_interface()
         {
             //Arrange
@@ -34,6 +35,7 @@ namespace TestPlugin2016.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2016_verify_virtual_method()
         {
             //Arrange
@@ -59,6 +61,7 @@ namespace TestPlugin2016.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2016_execute_nonvirtual_method()
         {
             //Arrange

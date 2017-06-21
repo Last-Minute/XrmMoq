@@ -55,6 +55,7 @@ namespace TestPlugin2016.Tests
         /// using an Execute request, and validating the value from the Target entity.
         /// </summary>
         [TestMethod]
+        [TestCategory("ExampleIntegration")]
         public void Test_plugin_2016_method_livecrm_setup_teardown()
         {
             //Arrange

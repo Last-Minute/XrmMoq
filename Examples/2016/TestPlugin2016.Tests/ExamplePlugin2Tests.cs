@@ -9,6 +9,7 @@ namespace TestPlugin2016.Tests
     public class ExamplePlugin2Tests
     {
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2016_trace_configurations()
         {
             //Arrange
@@ -32,6 +33,7 @@ namespace TestPlugin2016.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2016_multiple_retrievemultiple_method_using_orgservice()
         {
             //Arrange

@@ -13,6 +13,7 @@ namespace TestWorkflow2016.Tests
     public class ExampleWorkflowTests
     {
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_workflow_2016_input_output()
         {
             //Arrange
@@ -42,6 +43,7 @@ namespace TestWorkflow2016.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_workflow_2016_callwebservice()
         {
             //Arrange

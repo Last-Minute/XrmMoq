@@ -15,6 +15,7 @@ namespace TestPlugin2011.Tests
         /// using an Execute request, and validating the value from the Target entity.
         /// </summary>
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2011_preupdate_messagetype_execute()
         {
             //Arrange
@@ -64,6 +65,7 @@ namespace TestPlugin2011.Tests
         /// using a Retrieve request, and validating the value from the Target entity.
         /// </summary>
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2011_preupdate_messagetype_retrieve()
         {
             //Arrange
@@ -104,6 +106,7 @@ namespace TestPlugin2011.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2011_methodonly_trace_retrieve()
         {
             //Arrange

@@ -9,6 +9,7 @@ namespace TestPlugin2015.Tests
     public class ExamplePlugin3Tests
     {
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_plugin_2015_preimage()
         {
             //Arrange

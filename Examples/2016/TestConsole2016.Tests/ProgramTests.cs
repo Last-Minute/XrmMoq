@@ -9,6 +9,7 @@ namespace TestConsole2016.Tests
     public class ProgramTests
     {
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_console_2016_get_callerid()
         {
             //Arrange
@@ -23,6 +24,7 @@ namespace TestConsole2016.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_console_2016_create_account_using_clientmock()
         {
             //Arrange
@@ -37,6 +39,7 @@ namespace TestConsole2016.Tests
         }
 
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_console_2016_create_account_using_mockclientadapter()
         {
             //Arrange

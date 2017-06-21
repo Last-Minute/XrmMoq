@@ -7,6 +7,7 @@ namespace TestConsole2011.Tests
     public class ProgramTests
     {
         [TestMethod]
+        [TestCategory("ExampleUnit")]
         public void Test_console_2011_create_account()
         {
             //Arrange
